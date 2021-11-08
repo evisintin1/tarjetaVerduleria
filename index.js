@@ -6,6 +6,7 @@ const port = 2500;
 
 app.set("views",path.join(__dirname,"views"));
 app.use(express.static((path.join(__dirname,"pub"))))
+
 app.listen(port,()=>{
     console.log("Servidor corriendo");
 })
